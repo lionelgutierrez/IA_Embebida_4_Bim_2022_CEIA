@@ -1,7 +1,7 @@
 import serial
 
 #Defino el peurto en windows
-s = serial.Serial('COM3')
+s = serial.Serial('/dev/ttyACM0')
 
 #Defino baudrate y timeout para la lectura
 s.baudrate = 9600
